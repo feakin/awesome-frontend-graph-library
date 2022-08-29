@@ -58,4 +58,16 @@ Framework related:
 
 - [https://github.com/graphology/graphology](https://github.com/graphology/graphology) is a robust & multipurpose Graph object for JavaScript and TypeScript.
 
+Cinco:
+
+- [Cinco](https://gitlab.com/scce/cinco-cloud) Cinco SCCE Meta Tooling Framework.
+
+[Meta Graph Language](https://gitlab.com/scce/cinco/-/wikis/Usage/Meta-Graph-Language), The root element of every mgl file is the MGL model object. It can contain several model elements like graphmodels, nodes, edges, and more. Beside of that, it also contains some mandatory meta data that will be considered upon generation.
+
+
+## Geometric Algebra
+
+- [https://github.com/enkimute/ganja.js](https://github.com/enkimute/ganja.js) Javascript Geometric Algebra Generator for Javascript, c++, c#, rust, python. (with operator overloading and algebraic literals) - refs to [https://bivector.net/lib.html](https://bivector.net/lib.html)
+
+
 
