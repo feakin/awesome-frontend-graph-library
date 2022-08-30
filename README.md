@@ -6,6 +6,7 @@
 
 - [Drawio](https://github.com/jgraph/drawio) this project, is a configurable diagramming/whiteboarding visualization application. draw.io is owned and developed by JGraph Ltd, a UK based software company.
 - [Excalidraw](https://github.com/excalidraw/excalidraw)  Virtual whiteboard for sketching hand-drawn like diagrams.
+- [ourboard](https://github.com/raimohanska/ourboard)  An online whiteboard.
 
 ## Graph Drawing Library
 
@@ -74,4 +75,11 @@ Cinco:
  - [SAT.js](https://github.com/jriecken/sat-js) A simple JavaScript library for performing 2D collision detection
  - [RBush](https://github.com/mourner/rbush) is a high-performance JavaScript library for 2D spatial  indexing of points and rectangles.
  - [JSTS](https://github.com/bjornharrtell/jsts) is an ECMAScript library of spatial predicates and functions for processing geometry conforming to the Simple Features Specification for SQL published by the Open Geospatial Consortium.
+
+## Server
+
+- [Hypermerge](https://github.com/automerge/hypermerge) is a Node.js library for building p2p collaborative applications without any server infrastructure. It combines Automerge, a CRDT, with hypercore, a distributed append-only log.
+- [automerge](https://github.com/automerge/automerge)  A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically. 
+
+
 
