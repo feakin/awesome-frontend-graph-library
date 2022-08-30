@@ -69,5 +69,9 @@ Cinco:
 
 - [https://github.com/enkimute/ganja.js](https://github.com/enkimute/ganja.js) Javascript Geometric Algebra Generator for Javascript, c++, c#, rust, python. (with operator overloading and algebraic literals) - refs to [https://bivector.net/lib.html](https://bivector.net/lib.html)
 
+### Collision Detection
 
+ - [SAT.js](https://github.com/jriecken/sat-js) A simple JavaScript library for performing 2D collision detection
+ - [RBush](https://github.com/mourner/rbush) is a high-performance JavaScript library for 2D spatial  indexing of points and rectangles.
+ - [JSTS](https://github.com/bjornharrtell/jsts) is an ECMAScript library of spatial predicates and functions for processing geometry conforming to the Simple Features Specification for SQL published by the Open Geospatial Consortium.
 
