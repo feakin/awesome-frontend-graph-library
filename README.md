@@ -78,8 +78,28 @@ Cinco:
 
 ## Server
 
+
+### JavaScript
+
 - [Hypermerge](https://github.com/automerge/hypermerge) is a Node.js library for building p2p collaborative applications without any server infrastructure. It combines Automerge, a CRDT, with hypercore, a distributed append-only log.
 - [automerge](https://github.com/automerge/automerge)  A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically. 
+- [yjs](https://github.com/yjs/yjs) is a CRDT implementation that exposes its internal data structure as shared types. Shared types are common data types like Map or Array with superpowers: changes are automatically distributed to other peers and merged without merge conflicts.
+    - [SyncedStore](https://github.com/yousefed/SyncedStore) is an easy-to-use library for building collaborative applications that sync automatically. It's built on top of Yjs, a proven, high performance CRDT implementation.
+    - [y-monaco](https://github.com/yjs/y-monaco) binding maps a Y.Text to the Monaco editor (the editor that power VS Code). 
+- [ShareDB](https://github.com/share/sharedb/)  is a realtime database backend based on Operational Transformation (OT) of JSON documents. It is the realtime backend for the DerbyJS web application framework.
 
+### Rust
+
+- [Automerge RS](https://github.com/automerge/automerge-rs) is a Rust library implementation of the Automerge file format and network protocol. Its focus is to support the creation of Automerge implementations in other languages, currently; WASM, JS and C. A libautomerge if you will.
+- [Diamond Types](https://github.com/josephg/diamond-types) contains a high performance rust CRDT for text editing. This is a special data type which supports concurrent editing of lists or strings (text documents) by multiple users in a P2P network without needing a centralized server.
+- [Ropey](https://github.com/cessen/ropey) is a utf8 text rope for Rust, designed to be the backing text-buffer for applications such as text editors. Ropey is fast, robust, and can handle huge texts and memory-incoherent edits with ease.
+
+### Golang
+
+- [Redwood](https://github.com/redwood/redwood) is a highly-configurable, distributed, realtime database that manages a state tree shared among many peers. Imagine something like a Redux store, but distributed across all users of an application, that offers offline editing and is resilient to poor connectivity.
+
+## Documents
+
+Hacker News: [Faster CRDTs: An Adventure in Optimization (josephg.com)](https://news.ycombinator.com/item?id=28017204)
 
 
