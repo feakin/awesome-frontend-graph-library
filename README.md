@@ -87,6 +87,12 @@ Cinco:
     - [SyncedStore](https://github.com/yousefed/SyncedStore) is an easy-to-use library for building collaborative applications that sync automatically. It's built on top of Yjs, a proven, high performance CRDT implementation.
     - [y-monaco](https://github.com/yjs/y-monaco) binding maps a Y.Text to the Monaco editor (the editor that power VS Code). 
 - [ShareDB](https://github.com/share/sharedb/)  is a realtime database backend based on Operational Transformation (OT) of JSON documents. It is the realtime backend for the DerbyJS web application framework.
+- [Teletype](https://github.com/atom/teletype) An Atom package that lets developers share their workspace with team members and collaborate on code in real time.
+    - [teletype-crdt](https://github.com/atom/teletype-crdt)
+    - [teletype-server](https://github.com/atom/teletype-server)
+    - [teletype-client](https://github.com/atom/teletype-client)
+- [Swarm](https://github.com/gritzko/swarm)  is a JavaScript client for the Swarm database. Swarm is like "git for data" except it's real-time and never has a merge conflict. 
+- [Etherpad](https://github.com/ether/etherpad-lite)  Etherpad: A modern really-real-time collaborative document editor. 
 
 ### Rust
 
@@ -100,6 +106,31 @@ Cinco:
 
 ## Documents
 
-Hacker News: [Faster CRDTs: An Adventure in Optimization (josephg.com)](https://news.ycombinator.com/item?id=28017204)
+for more: [CRDTs tech](https://crdt.tech/)
+
+### CRDT
+
+Conflict-free replicated data type -> [wiki](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type)
+
+- ★★★★★ Hacker News: [Faster CRDTs: An Adventure in Optimization (josephg.com)](https://news.ycombinator.com/item?id=28017204)
+- CRDT Primer
+    - [A CRDT Primer Part I: Defanging Order Theory](http://jtfmumm.com/blog/2015/11/17/crdt-primer-1-defanging-order-theory/)
+    - [A CRDT Primer Part II: Convergent CRDTs](http://jtfmumm.com/blog/2015/11/24/crdt-primer-2-convergent-crdts/)
+- ★★★★★ [Data Laced with History: Causal Trees & Operational CRDTs](http://archagon.net/blog/2018/03/24/data-laced-with-history/)
+
+Resources:
+
+- [Xi Editor CRDT](https://github.com/xi-editor/xi-editor/blob/master/docs/docs/crdt.md)，Actions：Deletion; tombstones; intervals;Undo;Recap。
+    - [An Undo Framework for P2P Collaborative Editing](https://hal.archives-ouvertes.fr/inria-00432373/document)
+    - [Tombstone Transformation Functions for Ensuring Consistency in Collaborative Editing Systems](http://www.loria.fr/~urso/uploads/Main/oster06collcom.pdf)
+    - [Real time group editors without Operational transformation](https://hal.inria.fr/inria-00071240/document)
+    - [A comprehensive study of Convergent and Commutative Replicated Data Types](http://hal.upmc.fr/inria-00555588/document)
 
 
+### OT
+
+Operational transformation -> [wiki](https://en.wikipedia.org/wiki/Operational_transformation)
+
+### Others
+
+- [Multiplayer Editing in Figma](https://www.figma.com/blog/multiplayer-editing-in-figma/)
