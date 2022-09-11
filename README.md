@@ -104,6 +104,10 @@ Cinco:
 
 - [Redwood](https://github.com/redwood/redwood) is a highly-configurable, distributed, realtime database that manages a state tree shared among many peers. Imagine something like a Redux store, but distributed across all users of an application, that offers offline editing and is resilient to poor connectivity.
 
+### Editor 
+
+- [https://github.com/convergencelabs/monaco-collab-ext](https://github.com/convergencelabs/monaco-collab-ext)  Adds collaborative editing capabilities to the Monaco Editor 
+
 ## Documents
 
 for more: [CRDTs tech](https://crdt.tech/)
